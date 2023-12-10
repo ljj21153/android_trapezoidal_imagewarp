@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.example.trapezoidal.MainActivity"
+    tools:ignore="ExtraText">
+
+    <com.example.trapezoidal.PerspectiveTransformDistortView
+        android:id="@+id/perview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_launcher"
+        android:text="END fetch point"
+        android:layout_margin="16dp"
+        android:contentDescription="sdf" />
+
+</FrameLayout>
